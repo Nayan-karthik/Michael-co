@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="avGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#8C702E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="76" fill="#241E1C" stroke="url(#avGrad3)" stroke-width="2.5"/>
+  <circle cx="80" cy="62" r="26" fill="#4B3A36"/>
+  <path d="M 36 128 C 36 98 60 94 80 94 C 100 94 124 98 124 128" fill="#382C29"/>
+  <text x="80" y="70" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="600" fill="#FFEAA7" text-anchor="middle">PD</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 80" width="440" height="80">
+  <defs>
+    <linearGradient id="goldGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C59B27"/>
+      <stop offset="45%" stop-color="#E5C788"/>
+      <stop offset="100%" stop-color="#AA821C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Monogram Crest -->
+  <g transform="translate(6, 4)">
+    <!-- Outer Geometric Ring -->
+    <circle cx="36" cy="36" r="32" fill="none" stroke="url(#goldGradDark)" stroke-width="1.5"/>
+    <circle cx="36" cy="36" r="28" fill="none" stroke="#2B2824" stroke-width="0.75" stroke-dasharray="2,3" opacity="0.4"/>
+    
+    <!-- Monogram Initial -->
+    <text x="36" y="45" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif" font-size="28" font-weight="600" fill="#1C1A17" text-anchor="middle" letter-spacing="0.5">M</text>
+    
+    <!-- Delicate Flourish -->
+    <circle cx="36" cy="11" r="2" fill="#C59B27"/>
+    <path d="M 28 61 Q 36 57 44 61" stroke="url(#goldGradDark)" stroke-width="1.2" fill="none"/>
+  </g>
+
+  <!-- Wordmark & Subtitle -->
+  <g transform="translate(88, 12)">
+    <text x="0" y="32" font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif" font-size="29" font-weight="600" letter-spacing="3" fill="#1C1A17">
+      MICHAEL <tspan fill="url(#goldGradDark)" font-weight="400" font-style="italic">&amp;</tspan> CO.
+    </text>
+    <text x="1" y="50" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif" font-size="9" font-weight="600" letter-spacing="2.8" fill="#7C756B">
+      EVENTS &amp; BESPOKE STYLING • BENGALURU
+    </text>
+  </g>
+</svg>

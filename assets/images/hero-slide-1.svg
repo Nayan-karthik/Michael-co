@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1C19" />
+      <stop offset="40%" stop-color="#2D2924" />
+      <stop offset="100%" stop-color="#141311" />
+    </linearGradient>
+    <radialGradient id="ambientLight" cx="60%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#E5C788" stop-opacity="0.3" />
+      <stop offset="60%" stop-color="#C59B27" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="goldArch" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F2DFB3" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#C59B27" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1600" height="900" fill="url(#bgGrad1)" />
+  <rect width="1600" height="900" fill="url(#ambientLight)" />
+
+  <!-- Architectural Mandap / Floral Pergola Structure -->
+  <g transform="translate(800, 480)" opacity="0.85">
+    <!-- Back Arch -->
+    <path d="M -360 260 L -360 -100 C -360 -320, 360 -320, 360 -100 L 360 260" fill="none" stroke="url(#goldArch)" stroke-width="2.5" />
+    <path d="M -320 260 L -320 -80 C -320 -280, 320 -280, 320 -80 L 320 260" fill="none" stroke="url(#goldArch)" stroke-width="1" stroke-dasharray="6,4" opacity="0.6"/>
+    
+    <!-- Central Stage Plinth -->
+    <ellipse cx="0" cy="220" rx="420" ry="60" fill="#24211D" stroke="url(#goldArch)" stroke-width="1.5" />
+    <ellipse cx="0" cy="205" rx="380" ry="50" fill="#2E2A25" stroke="#E5C788" stroke-width="0.8" opacity="0.7"/>
+
+    <!-- Hanging Floral Chandeliers -->
+    <g transform="translate(0, -220)">
+      <circle cx="0" cy="0" r="14" fill="#D4AF37" opacity="0.6" filter="blur(2px)"/>
+      <line x1="0" y1="-80" x2="0" y2="20" stroke="#EED596" stroke-width="1.5"/>
+      <path d="M -70 40 Q 0 80 70 40" fill="none" stroke="#EED596" stroke-width="1.5"/>
+      <!-- Floral cascading drops -->
+      <line x1="-50" y1="45" x2="-50" y2="110" stroke="#F5EDE0" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4,8"/>
+      <line x1="-25" y1="52" x2="-25" y2="140" stroke="#F5EDE0" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4,8"/>
+      <line x1="0" y1="55" x2="0" y2="160" stroke="#F5EDE0" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4,8"/>
+      <line x1="25" y1="52" x2="25" y2="140" stroke="#F5EDE0" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4,8"/>
+      <line x1="50" y1="45" x2="50" y2="110" stroke="#F5EDE0" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4,8"/>
+    </g>
+
+    <!-- Side Floral Towers -->
+    <g transform="translate(-360, 40)">
+      <ellipse cx="0" cy="60" rx="65" ry="120" fill="#3D362E" opacity="0.7"/>
+      <circle cx="-15" cy="-20" r="35" fill="#C59B27" opacity="0.4"/>
+      <circle cx="20" cy="10" r="40" fill="#E8D7B8" opacity="0.5"/>
+      <circle cx="0" cy="70" r="45" fill="#E8D7B8" opacity="0.4"/>
+    </g>
+    <g transform="translate(360, 40)">
+      <ellipse cx="0" cy="60" rx="65" ry="120" fill="#3D362E" opacity="0.7"/>
+      <circle cx="15" cy="-20" r="35" fill="#C59B27" opacity="0.4"/>
+      <circle cx="-20" cy="10" r="40" fill="#E8D7B8" opacity="0.5"/>
+      <circle cx="0" cy="70" r="45" fill="#E8D7B8" opacity="0.4"/>
+    </g>
+
+    <!-- Warm Candle Lights on Floor -->
+    <circle cx="-260" cy="220" r="6" fill="#FFEAA7" opacity="0.9" />
+    <circle cx="-160" cy="240" r="5" fill="#FFEAA7" opacity="0.9" />
+    <circle cx="160" cy="240" r="5" fill="#FFEAA7" opacity="0.9" />
+    <circle cx="260" cy="220" r="6" fill="#FFEAA7" opacity="0.9" />
+  </g>
+
+  <!-- Editorial Badge Watermark -->
+  <g transform="translate(1420, 820)" text-anchor="end">
+    <text font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#D4AF37">PHOTO: GRAND BESPOKE MANDAP</text>
+    <text y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" letter-spacing="2" fill="#999185">PALACE GROUNDS, BENGALURU</text>
+  </g>
+</svg>

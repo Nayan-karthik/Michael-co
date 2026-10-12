@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bookBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F1C18" />
+      <stop offset="50%" stop-color="#2D2821" />
+      <stop offset="100%" stop-color="#141310" />
+    </linearGradient>
+    <radialGradient id="bookGlow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#141310" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bookBg)"/>
+  <rect width="800" height="1000" fill="url(#bookGlow)"/>
+
+  <!-- Editorial Arch & Monogram Feature -->
+  <g transform="translate(400, 460)">
+    <!-- Arch Border -->
+    <path d="M -260 380 L -260 -100 C -260 -360 260 -360 260 -100 L 260 380" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    <path d="M -230 380 L -230 -90 C -230 -330 230 -330 230 -90 L 230 380" fill="none" stroke="#EED596" stroke-width="1" stroke-dasharray="6,4" opacity="0.6"/>
+    
+    <!-- Central Crest -->
+    <circle cx="0" cy="-60" r="80" fill="#24201A" stroke="#D4AF37" stroke-width="1.5"/>
+    <circle cx="0" cy="-60" r="68" fill="none" stroke="#EED596" stroke-width="0.8" opacity="0.4"/>
+    <text x="0" y="-45" font-family="'Cormorant Garamond', Georgia, serif" font-size="52" font-weight="600" fill="#FFEAA7" text-anchor="middle">M&amp;C</text>
+    
+    <!-- Botanical Flourish -->
+    <path d="M -160 80 Q 0 40 160 80" stroke="#D4AF37" stroke-width="1.5" fill="none"/>
+    <circle cx="0" cy="60" r="4" fill="#FFEAA7"/>
+    <circle cx="-160" cy="80" r="3" fill="#D4AF37"/>
+    <circle cx="160" cy="80" r="3" fill="#D4AF37"/>
+
+    <!-- Trust Stats Pill inside Graphic -->
+    <rect x="-180" y="140" width="360" height="90" rx="45" fill="#181613" stroke="#D4AF37" stroke-width="1.2" opacity="0.95"/>
+    <text x="0" y="175" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-weight="700" fill="#FFEAA7" text-anchor="middle">4.8 ★ / 75+ Reviews</text>
+    <text x="0" y="205" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" letter-spacing="3" fill="#A89F91" text-anchor="middle">EXCELLENCE IN BENGALURU</text>
+  </g>
+</svg>

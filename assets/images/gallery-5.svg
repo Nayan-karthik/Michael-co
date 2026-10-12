@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gal5Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#25241F"/>
+      <stop offset="50%" stop-color="#353127"/>
+      <stop offset="100%" stop-color="#1B1A16"/>
+    </linearGradient>
+    <radialGradient id="gal5Glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#EED596" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#1B1A16" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#gal5Bg)"/>
+  <rect width="900" height="650" fill="url(#gal5Glow)"/>
+
+  <!-- Artisanal Botanical Dinner Tablescape -->
+  <g transform="translate(450, 360)">
+    <!-- Round Banquet Top View in 3D Angle -->
+    <ellipse cx="0" cy="80" rx="360" ry="110" fill="#2E2B24" stroke="#8C7755" stroke-width="1.5"/>
+    <ellipse cx="0" cy="75" rx="320" ry="95" fill="#3D372E"/>
+    
+    <!-- Botanical Center Runner with Eucalyptus & Roses -->
+    <ellipse cx="0" cy="70" rx="200" ry="40" fill="#4D493B" opacity="0.8"/>
+    <circle cx="-60" cy="65" r="14" fill="#D4AF37" opacity="0.8"/>
+    <circle cx="0" cy="60" r="16" fill="#F5EDE0" opacity="0.9"/>
+    <circle cx="60" cy="65" r="14" fill="#D4AF37" opacity="0.8"/>
+    
+    <!-- Golden Cutlery & Glass Charger Silhouette -->
+    <circle cx="-160" cy="80" r="28" fill="none" stroke="#FFEAA7" stroke-width="1"/>
+    <circle cx="160" cy="80" r="28" fill="none" stroke="#FFEAA7" stroke-width="1"/>
+    <circle cx="0" cy="115" r="28" fill="none" stroke="#FFEAA7" stroke-width="1"/>
+  </g>
+
+  <!-- Title Tag -->
+  <g transform="translate(50, 560)">
+    <rect x="-10" y="-20" width="480" height="70" fill="#141311" fill-opacity="0.75" rx="4"/>
+    <text x="15" y="10" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="600" fill="#F4ECE1">Artisanal Botanical Tablescape</text>
+    <text x="15" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" letter-spacing="2" fill="#D4AF37">SADASHIVANAGAR • FLORAL &amp; DINING</text>
+  </g>
+</svg>

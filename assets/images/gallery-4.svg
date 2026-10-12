@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gal4Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1822"/>
+      <stop offset="50%" stop-color="#2D2338"/>
+      <stop offset="100%" stop-color="#13121A"/>
+    </linearGradient>
+    <radialGradient id="gal4Glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FFD175" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#13121A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#gal4Bg)"/>
+  <rect width="900" height="1100" fill="url(#gal4Glow)"/>
+
+  <!-- Grand Sangeet Canopy with Custom Neon & Crystal Drops -->
+  <g transform="translate(450, 520)">
+    <!-- Swag Draping Canopy -->
+    <path d="M -380 -220 Q -190 -120 0 -200 Q 190 -120 380 -220" fill="none" stroke="#E5C788" stroke-width="2.5" opacity="0.7"/>
+    <path d="M -380 -180 Q -190 -80 0 -160 Q 190 -80 380 -180" fill="none" stroke="#F5EDE0" stroke-width="1.5" stroke-dasharray="6,6" opacity="0.5"/>
+    <path d="M -380 -140 Q -190 -40 0 -120 Q 190 -40 380 -140" fill="none" stroke="#E5C788" stroke-width="1.8" opacity="0.6"/>
+
+    <!-- Crystal drop strings -->
+    <g stroke="#FFF" stroke-width="1" stroke-linecap="round" stroke-dasharray="2,6" opacity="0.75">
+      <line x1="-240" y1="-150" x2="-240" y2="100"/>
+      <line x1="-150" y1="-120" x2="-150" y2="140"/>
+      <line x1="-60" y1="-130" x2="-60" y2="170"/>
+      <line x1="60" y1="-130" x2="60" y2="170"/>
+      <line x1="150" y1="-120" x2="150" y2="140"/>
+      <line x1="240" y1="-150" x2="240" y2="100"/>
+    </g>
+
+    <!-- Custom Neon Centerpiece -->
+    <path d="M -120 20 Q 0 -40 120 20" fill="none" stroke="#FFEAA7" stroke-width="4" filter="drop-shadow(0 0 10px #FFD700)"/>
+    <text x="0" y="28" font-family="'Cormorant Garamond', Georgia, serif" font-size="32" font-style="italic" font-weight="600" fill="#FFF8EB" text-anchor="middle" filter="drop-shadow(0 0 8px #FFD700)">Euphoria</text>
+
+    <!-- Elevated Dance Floor Plinth -->
+    <ellipse cx="0" cy="270" rx="340" ry="70" fill="#25212E" stroke="#D4AF37" stroke-width="2"/>
+    <ellipse cx="0" cy="255" rx="300" ry="55" fill="#30293D" stroke="#FFEAA7" stroke-width="1"/>
+  </g>
+
+  <!-- Title Tag -->
+  <g transform="translate(60, 990)">
+    <rect x="-10" y="-20" width="460" height="70" fill="#141311" fill-opacity="0.75" rx="4"/>
+    <text x="15" y="10" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="600" fill="#F4ECE1">Sangeet Canopy &amp; Custom Neon</text>
+    <text x="15" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="500" letter-spacing="2" fill="#D4AF37">WHITEFIELD • FLORAL &amp; STAGE</text>
+  </g>
+</svg>

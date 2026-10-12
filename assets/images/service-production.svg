@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="servGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#231F27" />
+      <stop offset="100%" stop-color="#151319" />
+    </linearGradient>
+    <radialGradient id="prodGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#151319" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#servGrad4)" />
+  <circle cx="400" cy="270" r="220" fill="url(#prodGlow)" />
+  
+  <!-- Sound wave, Truss, Light Spotlight, Production Stage Icons -->
+  <g transform="translate(400, 260)" stroke="#D4AF37" fill="none">
+    <!-- Rigging Truss -->
+    <line x1="-160" y1="-100" x2="160" y2="-100" stroke-width="3"/>
+    <line x1="-160" y1="-80" x2="160" y2="-80" stroke-width="2"/>
+    <path d="M -160 -100 L -130 -80 L -100 -100 L -70 -80 L -40 -100 L -10 -80 L 20 -100 L 50 -80 L 80 -100 L 110 -80 L 140 -100" stroke-width="1.2" opacity="0.6"/>
+    
+    <!-- Hanging Spotlights -->
+    <path d="M -90 -80 L -90 -50 M 90 -80 L 90 -50" stroke-width="2"/>
+    <polygon points="-110,-50 -70,-50 -60,-30 -120,-30" fill="#2E2820" stroke="#FFEAA7" stroke-width="1.5"/>
+    <polygon points="70,-50 110,-50 120,-30 60,-30" fill="#2E2820" stroke="#FFEAA7" stroke-width="1.5"/>
+
+    <!-- Light cones -->
+    <polygon points="-90,-30 -180,140 0,140" fill="#FFEAA7" fill-opacity="0.08" stroke="none"/>
+    <polygon points="90,-30 0,140 180,140" fill="#FFEAA7" fill-opacity="0.08" stroke="none"/>
+
+    <!-- Audio waveform -->
+    <path d="M -70 90 L -50 70 L -30 110 L -10 60 L 10 120 L 30 75 L 50 100 L 70 85" stroke="#FFEAA7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="400" y="520" font-family="'Cormorant Garamond', Georgia, serif" font-size="28" font-style="italic" fill="#E8D7B8" text-anchor="middle" letter-spacing="2">One-Stop Production</text>
+  <text x="400" y="555" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="500" fill="#999185" text-anchor="middle" letter-spacing="3">FLORAL, LIGHTING, SOUND &amp; STAGE</text>
+</svg>

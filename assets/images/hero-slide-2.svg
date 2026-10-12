@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181A1D" />
+      <stop offset="50%" stop-color="#24262A" />
+      <stop offset="100%" stop-color="#111214" />
+    </linearGradient>
+    <radialGradient id="stageGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#252A30" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="beam1" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#EED596" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#EED596" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgGrad2)" />
+  <rect width="1600" height="900" fill="url(#stageGlow)" />
+
+  <!-- Architectural Stage Light Beams -->
+  <polygon points="400,0 300,900 650,900" fill="url(#beam1)" opacity="0.6"/>
+  <polygon points="1200,0 950,900 1300,900" fill="url(#beam1)" opacity="0.6"/>
+
+  <!-- Minimalist Corporate Stage Setup -->
+  <g transform="translate(800, 500)">
+    <!-- Stage Backdrop Curved Panels -->
+    <path d="M -500 200 L -450 -120 Q -250 -160 0 -160 Q 250 -160 450 -120 L 500 200 Z" fill="#202226" stroke="#D4AF37" stroke-width="1.2" opacity="0.6"/>
+    <!-- LED Ribbon Arc -->
+    <path d="M -380 -60 Q 0 -110 380 -60" fill="none" stroke="#EED596" stroke-width="2.5" opacity="0.8"/>
+    
+    <!-- Ultra Sleek Tiered Stage Podium -->
+    <polygon points="-420,220 420,220 460,260 -460,260" fill="#2B2E33" stroke="#D4AF37" stroke-width="1" />
+    <polygon points="-380,180 380,180 410,218 -410,218" fill="#35393F" />
+
+    <!-- Sleek Lectern -->
+    <polygon points="-25,180 25,180 18,90 -18,90" fill="#1C1E22" stroke="#EED596" stroke-width="1" />
+    <line x1="-12" y1="85" x2="12" y2="85" stroke="#FFEAA7" stroke-width="2"/>
+
+    <!-- Round Banquet Tables in Foreground (Silhouette) -->
+    <g transform="translate(-480, 290)">
+      <ellipse cx="0" cy="0" rx="90" ry="25" fill="#1B1C1F" stroke="#4A453C" stroke-width="1"/>
+      <circle cx="0" cy="-20" r="14" fill="#33302B"/>
+      <circle cx="0" cy="-22" r="3" fill="#FFEAA7" opacity="0.8"/>
+    </g>
+    <g transform="translate(480, 290)">
+      <ellipse cx="0" cy="0" rx="90" ry="25" fill="#1B1C1F" stroke="#4A453C" stroke-width="1"/>
+      <circle cx="0" cy="-20" r="14" fill="#33302B"/>
+      <circle cx="0" cy="-22" r="3" fill="#FFEAA7" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- Editorial Badge Watermark -->
+  <g transform="translate(1420, 820)" text-anchor="end">
+    <text font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#D4AF37">PHOTO: GLOBAL LEADERSHIP SUMMIT &amp; GALA</text>
+    <text y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" letter-spacing="2" fill="#999185">UB CITY / JW MARRIOTT, BENGALURU</text>
+  </g>
+</svg>
